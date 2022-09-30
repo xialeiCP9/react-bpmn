@@ -1,0 +1,11 @@
+{
+  "name": "react-bpmn",
+  "version": "1.0.0",
+  "description": "bpmn react版本的实现",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
