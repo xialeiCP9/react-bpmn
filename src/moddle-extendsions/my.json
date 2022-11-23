@@ -1,0 +1,27 @@
+{
+    "name": "self-defined",
+    "prefix": "self-defined",
+    "uri": "http://self-defined.org/schema",
+    "xml": {
+        "tagAlias": "lowerCase"
+    },
+    "assosiations": [],
+    "types": [
+        {
+            "name": "If",
+            "superClass": ["bpmn:FlowNode"]
+        },
+        {
+            "name": "Assertion",
+            "superClass": ["bpmn:Activity"]
+        },
+        {
+            "name": "PositiveAssertion",
+            "superClass": ["self-defined:Assertion"]
+        },
+        {
+            "name": "NegativeAssertion",
+            "superClass": ["self-defined:Assertion"]
+        }
+    ]
+}

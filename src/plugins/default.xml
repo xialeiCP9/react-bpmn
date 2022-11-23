@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" id="diagram_Process_1664347382577" targetNamespace="http://flowable.org/bpmn">
+  <bpmn2:process id="Process_1664347382577" name="业务流程_1664347382577fds" isExecutable="true" />
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_1664347382577" />
+  </bpmndi:BPMNDiagram>
+</bpmn2:definitions>

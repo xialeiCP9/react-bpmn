@@ -1,0 +1,35 @@
+:global{
+    .djs-palette{
+        display: none;
+    }
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-60%);
+    width: 60px;
+    min-height: 600px;
+    background-color: #f7f7f8;
+    border: 1px solid #b9bcc6;
+    .tool, .node{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .svgIcon{
+        width: 42px;
+        height: 42px;
+        margin-top: 10px;
+        &.hand{
+            fill: #555;
+        }
+        &.lasso{
+            fill: black;
+        }
+        &:hover, &.active{
+            fill: hsl(205, 100%, 45%);
+        }
+    }
+}

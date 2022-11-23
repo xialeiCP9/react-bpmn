@@ -1,0 +1,1 @@
+import PaletteProvider from "bpmn-js/lib/features/palette/PaletteProvider";
